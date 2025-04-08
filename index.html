@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descubra a Pizzaria Martinez, onde a tradição se encontra com o sabor! Oferecemos uma variedade de pizzas com ingredientes frescos e um ambiente acolhedor. Venha saborear nossas delícias e aproveite promoções especiais. Faça seu pedido online e experimente a verdadeira pizza!">
+  <meta name="keywords" content="Pizzaria Martinez, melhor pizza de Sorocaba, pizza delivery, ingredientes naturais, promoções de pizza, pedido online de pizza, pizzaria familiar, sabores de pizza">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <meta property="og:title" content="Pizzaria Martinez - Sorocaba">
+  <meta property="og:description" content="A melhor pizza de Sorocaba!">
+  <meta property="og:image" content="https://www.pizzariamartinez.com.br/web-app-manifest-192x192.png">
+  <meta property="og:url" content="https://www.pizzariamartinez.com.br">
+  <meta property="og:type" content="website">  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pizzaria Martinez">
+  <meta name="twitter:description" content="A melhor pizza de Sorocaba!">
+  <meta name="twitter:image" content="https://www.pizzariamartinez.com.br/web-app-manifest-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <title>Pizzaria Martinez</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/default.css" rel="stylesheet">  
+  <style>
+  :root {
+    --vermelho: #c62828;
+  }
+  .bg-vermelho {
+    background-color: var(--vermelho) !important;
+  }
+  .text-vermelho {
+    color: var(--vermelho) !important;
+  }
+  .hero {
+    background: url('img/pizzaria-martinez-logo-2.png') center center / cover no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 5px #000;
+  }
+  .menu-item img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;      
+  }    
+  
+  </style>
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg bg-vermelho navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">🍕 Martinez </a>          
+      <ul class="nav navbar-nav navbar-center sticky-top pt-3">
+        <li>
+            <a class="text-white my-link" style="font-size: 15pt" 
+               href="https://api.whatsapp.com/send?phone=5515991797447"> 
+               <strong>(15) 99179-7447</strong>                
+            </a>       
+        </li>         
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#menu">Cardápio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pedido">Peça Agora</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>      
+      </div>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="text-center">
+      <h1 class="display-3 fw-bold">Pizzaria Martinez</h1>
+      <h2 class="display-3 fw-bold">A Pizza mais saborosa de Sorocaba</h2>
+      <p class="lead fw-bold">Feita com ingredientes frescos e muito amor!</p>
+      <a href="https://api.whatsapp.com/send?phone=5515991797447" class="btn btn-light btn-lg mt-3" 
+         style="font-size: 1.8rem;">Fazer Pedido 🍕</a>
+    </div>
+  </header>
+
+  <!-- Menu -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <img src="img/pizzaria-martinez-logo-3.png" 
+           class="img-fluid d-block mx-auto" alt="Pizzaria Martinez">  
+      <br>
+      <h2 class="text-center text-vermelho mb-5">Nosso Cardápio</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-quatro-queijos-1.jpg" class="img-fluid" alt="Pizza de Quatro Queijos">
+          <h4 class="mt-3">Pizza de Quatro Queijos</h4>
+          <p>Mussarela, parmesão, gorgonzola e catupiry.</p>
+        </div>
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-tomate-seco-1.jpg" class="img-fluid" alt="Pizza de Rúcula c/ Tomate Seco">
+          <h4 class="mt-3">Pizza de Rúcula c/ Tomate Seco</h4>
+          <p>Mussarela e generosas fatias de pepperoni.</p>
+        </div>
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-parma-1.jpg" class="img-fluid" alt="Pizza de Presunto Parma">
+          <h4 class="mt-3">Pizza de Presunto Parma</h4>
+          <p>Base de mussarela, presunto parma fatiado, rúcula fresca e lascas de parmesão.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row g-4">
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-abobrinha-1.jpg" class="img-fluid" alt="Pizza de Abobrinha">
+          <h4 class="mt-3">Pizza de Abobrinha</h4>
+          <p>Abobrinha grelhada, mussarela, toque de alho e orégano.</p>
+        </div>
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-brocolis-2.jpg" class="img-fluid" alt="Pizza de Tomate Seco">
+          <h4 class="mt-3">Pizza de Tomate Seco</h4>
+          <p>Tomate seco, mussarela cremosa, manjericão fresco e fio de azeite.</p>
+        </div>
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-calabresa-1.jpg" class="img-fluid" alt="Pizza de Calabresa">
+          <h4 class="mt-3">Pizza de Calabresa</h4>
+          <p>Calabresa fatiada, cebola dourada, mussarela e orégano.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row g-4">
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-banana-nevada-1.jpg" class="img-fluid" alt="Pizza de Banana Nevada">
+          <h4 class="mt-3">Pizza de Banana Nevada</h4>
+          <p>Banana fatiada, leite condensado, canela e uma generosa camada de coco ralado.</p>
+        </div>
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-allan-martinez-1.jpg" class="img-fluid" alt="Pizza Allan Martinez">
+          <h4 class="mt-3">Pizza Allan Martinez</h4>
+          <p>Mussarela e generosas fatias de pepperoni.</p>
+        </div>
+        <div class="col-md-4 text-center menu-item">
+          <img src="img/pizza-rucula-1.jpg" class="img-fluid" alt="Pizza de Rúcula">
+          <h4 class="mt-3">Rúcula</h4>
+          <p>Parmesão, mussarela, gorgonzola e catupiry.</p>
+        </div>
+      </div>
+    </div>        
+  </section>
+  <!-- Pedido -->
+  <section id="pedido" class="bg-vermelho text-white py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Peça sua pizza agora mesmo!</h2>
+      <p class="mb-4">Entrega rápida e quentinha direto na sua porta.</p>
+      <a href="https://api.whatsapp.com/send?phone=5515991797447" target="_blank" class="btn btn-light btn-lg">Pedir pelo WhatsApp</a>
+    </div>
+  </section>
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-vermelho mb-4">Contato</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+          <p><strong>Endereço:</strong> Rua Aparecida, 1010 - Jardim Santa Rosália, Sorocaba - SP. </p>
+          <p><strong>Telefone:</strong> 
+              <a href="https://api.whatsapp.com/send?phone=5515991797447" class="text-decoration-none"> (15) 99179-7447 </a>
+          </p>
+          <p><strong>Email:</strong> contato@pizzariadelicia.com</p>
+        </div>
+      </div>
+      <div class="row row justify-content-center pt-3">
+        <div class="col-md-6 text-center">
+            <a href="https://www.facebook.com/profile.php?id=100047779937445" class="text-decoration-none" target="_blank">
+              <img src="img/facebook-logo-1.png" class="img-fluid" style="max-width: 80px;">&nbsp;&nbsp;
+            </a>             
+            <a href="https://www.instagram.com/pizzariamartinez.starosalia/" class="text-decoration-none" target="_blank">
+               <img src="img/instagram-logo-1.png" class="img-fluid" style="max-width: 80px;">&nbsp;&nbsp;        
+            </a>            
+            <img src="img/twitter-logo-1.png" class="img-fluid" style="max-width: 80px;">&nbsp;&nbsp;
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="position-fixed bottom-0 w-100 bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Pizzaria Martinez • Santa Rosália. Todos os direitos reservados.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
